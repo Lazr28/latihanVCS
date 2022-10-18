@@ -26,12 +26,12 @@
     - server yang akan kita gunakan adalah http://github.com
     - anda harus membuat akun terlebih dahulu
     - pada laman github klik start a project lalu klik new Repository
-        -   isi nama repositorynya, misalkan LatihanVCS
-        -   lalu klik tombol Create Repository
+    - isi nama repositorynya, misalkan LatihanVCS
+    - lalu klik tombol Create Repository
 
 11. Setelah kita selesai membuat repository server, kita akan menambahkan remote repository ke repository lokal kita.
     -   untuk menambahkan remote repository server, gunakan perintah berikut 
-        ####git remote add origin [url]####
+        **git remote add origin [url]**
         `git remote add origin https://github.com/Lazr28/latihanVCS.git`
 
         ![Screenshot 4](https://github.com/Lazr28/latihanVCS/blob/master/screenshot/SS4.png?raw=true)
@@ -39,11 +39,14 @@
 
 12. Untuk mengirim perubahan ke server, kita dapat menjalankan perintah 
         `git push -u origin master`
-
-        > untuk pertama kali akan diminta memasukan username dan password pada akun github.com lalu akan diminta juga izin / authorization
+    - untuk pertama kali akan diminta memasukan username dan password pada akun github.com lalu akan diminta juga izin / authorization
 
 13. Melihat Hasil pada server repository
-        > Buka halaman github.com lalu pilih repositorynya atau anda dapat membuka link repository yang anda simpan
-        > Maka perubahan akan terlihat pada laman tersebut
+        - Buka halaman github.com lalu pilih repositorynya atau anda dapat membuka link repository yang anda simpan
+        - Maka perubahan akan terlihat pada laman tersebut
 
-
+14. Untuk mengambil atau menyalin repostiory yang ada di server dan secara otomatis membuat satu direktory sesuai dengan nama repositorynya
+    kita bisa menggunakan perintah
+    `git clone https://github.com/Lazr28/latihanVCS.git`
+    atau 
+    **git clone [url]**
